@@ -126,7 +126,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  width: 20%;
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -136,6 +136,9 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -145,7 +148,7 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-  width: 270px;
+  width: 35%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -205,7 +208,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 45.5%;
 }
 #restaurant-name {
   color: #f18200;
@@ -272,4 +275,76 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+@media only screen and (max-width:1000px) and (min-width:601px) {
+  .filter-options select {
+    width: 30%;
+  }
+  #restaurants-list li {
+    width: 33%;
+  }
+  .inside #map-container {
+    background: none;
+    position: static;
+    width: 80%;
+    height: 500px;
+    margin-top: 130px;
+    margin-left: 10%;
+  }
+  #restaurant-container{
+    margin-top: -148px;
+    width: 80%;
+  }
+  #reviews-container{
+    width: 80%;
+  }
+  #maincontent{
+    width: 80%;
+  }
+  #breadcrumb{
+    width: 100%;
+  }
+  .inside > #footer{
+    width: 100%;
+  }
+  .inside{
+    background-color: #f3f3f3;
+  }
+}
+@media only screen and (max-width:600px) {
+  .filter-options select {
+    width: 43%;
+    padding: 0;
+  }
+  #restaurants-list li {
+    width: 70%;
+  }
+  .inside > #map-container {
+    background: none;
+    position: static;
+    width: 80%;
+    height: 500px;
+    margin-top: 130px;
+    margin-left: 22%;
+  }
+  #restaurant-container{
+    margin-top: -148px;
+    width: 100%;
+  }
+  #reviews-container{
+    width: 100%;
+  }
+  #maincontent{
+    width: 100%;
+  }
+  #breadcrumb{
+    width: 100%;
+  }
+  .inside > #footer{
+    width: 100%;
+  }
+  .inside{
+    background-color: #f3f3f3;
+  }
 }
