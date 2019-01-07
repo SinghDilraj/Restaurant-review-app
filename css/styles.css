@@ -282,7 +282,7 @@ nav h1 a {
     width: 30%;
   }
   #restaurants-list li {
-    width: 33%;
+    width: 45%;
   }
   .inside #map-container {
     background: none;
@@ -314,29 +314,28 @@ nav h1 a {
 }
 @media only screen and (max-width:600px) {
   .filter-options select {
-    width: 43%;
-    padding: 0;
+    width: 30%;
   }
   #restaurants-list li {
     width: 70%;
   }
-  .inside > #map-container {
+  .inside #map-container {
     background: none;
     position: static;
     width: 80%;
     height: 500px;
     margin-top: 130px;
-    margin-left: 22%;
+    margin-left: 10%;
   }
   #restaurant-container{
     margin-top: -148px;
-    width: 100%;
+    width: 80%;
   }
   #reviews-container{
-    width: 100%;
+    width: 80%;
   }
   #maincontent{
-    width: 100%;
+    width: 80%;
   }
   #breadcrumb{
     width: 100%;
