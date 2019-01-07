@@ -6,6 +6,14 @@ self.addEventListener('install', event => {
       .then(cache => {
         return cache.addAll(
           [
+            './',
+            './index.html',
+            './restaurant.html',
+            './css/styles.css',
+            './js/dbhelper.js',
+            './js/main.js',
+            './js/restaurant_info.js',
+            './data/restaurants.json',
             './img/1.jpg',
             './img/2.jpg',
             './img/3.jpg',
@@ -15,15 +23,7 @@ self.addEventListener('install', event => {
             './img/7.jpg',
             './img/8.jpg',
             './img/9.jpg',
-            './img/10.jpg',
-            './',
-            './index.html',
-            './restaurant.html',
-            './css/styles.css',
-            './js/dbhelper.js',
-            './js/main.js',
-            './js/restaurant_info.js',
-            './data/restaurants.json'
+            './img/10.jpg'
           ]
         )
       })
