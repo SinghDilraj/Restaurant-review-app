@@ -284,6 +284,9 @@ nav h1 a {
   #restaurants-list li {
     width: 65%;
   }
+  .inside #map{
+    height: 94%;
+  }
   .inside #map-container {
     background: none;
     position: static;
@@ -318,6 +321,9 @@ nav h1 a {
   }
   #restaurants-list li {
     width: 70%;
+  }
+  .inside #map{
+    height: 94%;
   }
   .inside #map-container {
     background: none;
